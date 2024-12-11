@@ -30,12 +30,12 @@ def gold(list_one, list_two):
     for num in list_two:
         list_two_freq[num] = list_two_freq.get(num, 0) + 1
 
-    similarity_scores = 0
+    similarity_score = 0
 
     for num in list_one:
-        similarity_scores += list_two_freq.get(num, 0) * num
+        similarity_score += list_two_freq.get(num, 0) * num
 
-    return similarity_scores
+    return similarity_score
 
 
 if __name__ == "__main__":
