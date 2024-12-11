@@ -25,6 +25,12 @@ def silver(list_one, list_two):
 
 
 def gold(list_one, list_two):
+<<<<<<< HEAD
+=======
+    list_one.sort()
+    list_two.sort()
+
+>>>>>>> b435c9bd702c1985cf6fd033c1db9eb0f65b6f2a
     list_two_freq = {}
 
     for num in list_two:
